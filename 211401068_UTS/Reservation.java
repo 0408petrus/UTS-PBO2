@@ -1,15 +1,15 @@
 package main;
+
 import java.util.Scanner;
 
 public class Reservation {
-    Scanner input = new Scanner(System.in); 
+    Scanner input = new Scanner(System.in);
 
-
-    public Reservation(){
+    public Reservation() {
         System.out.println("Order Selected!");
         System.out.println("Silakan Pilih Menu:\n1. Economy\n2. Bussiness\n3. Suite\n4. Kembali\nPilih: ");
         int pilihan = input.nextInt();
-        switch (pilihan){
+        switch (pilihan) {
             case 1:
                 System.out.flush();
                 Economy economy = new Economy();
